@@ -21,6 +21,16 @@
            <input type="submit" name="submit" class="btn" value="LOGIN">
            <p>Not registered? <a href="register.html">Create an account</a></p>
         </form>
+
+        <script>
+         function logIn(event) {
+         const email = event.target.email.value; 
+         const password = event.target.password.value; 
+         console.log("Email:", email);
+         console.log("Password:", password);
+    }
+
+        </script>
      
      </div>
 
